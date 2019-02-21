@@ -1,5 +1,5 @@
 %判断工作空间中是否存在"File"变量
 exist File;
 if ans==7
-    File=uigetfile('*.csv');
+    File=uigetfile('*.csv');%导入csv文件
 end
